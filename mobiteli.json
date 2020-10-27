@@ -24,7 +24,8 @@
       ],
       "Zvucnik": true,
       "Cijena": "1120 EUR",
-      "Bluetooth": "5.0, A2DP, LE"
+      "Bluetooth": "5.0, A2DP, LE",
+      "Wikilink": "https:\/\/hr.wikipedia.org\/wiki\/Apple_Inc."
    },
    {
       "PkMobitel": 2,
@@ -51,7 +52,8 @@
       ],
       "Zvucnik": true,
       "Cijena": "150 EUR",
-      "Bluetooth": "5.0 A2DP, LE"
+      "Bluetooth": "5.0 A2DP, LE",
+      "Wikilink": "https:\/\/hr.wikipedia.org\/wiki\/Nokia"
    },
    {
       "PkMobitel": 3,
@@ -78,7 +80,8 @@
       ],
       "Zvucnik": true,
       "Cijena": "300 EUR",
-      "Bluetooth": "5.0 A2DP, LE"
+      "Bluetooth": "5.0 A2DP, LE",
+      "Wikilink": "https:\/\/hr.wikipedia.org\/wiki\/Samsung"
    },
    {
       "PkMobitel": 4,
@@ -105,7 +108,8 @@
       ],
       "Zvucnik": true,
       "Cijena": "800 EUR",
-      "Bluetooth": "5.0 A2DP, aptX HD, LE"
+      "Bluetooth": "5.0 A2DP, aptX HD, LE",
+      "Wikilink": "https:\/\/hr.wikipedia.org\/wiki\/Sony"
    },
    {
       "PkMobitel": 5,
@@ -132,7 +136,8 @@
       ],
       "Zvucnik": true,
       "Cijena": "110 EUR",
-      "Bluetooth": "4.2, A2Dp, LE"
+      "Bluetooth": "4.2, A2Dp, LE",
+      "Wikilink": "https:\/\/en.wikipedia.org\/wiki\/Vodafone"
    },
    {
       "PkMobitel": 6,
@@ -159,7 +164,8 @@
       ],
       "Zvucnik": true,
       "Cijena": "200 EUR",
-      "Bluetooth": "4.2, A2DP, LE"
+      "Bluetooth": "4.2, A2DP, LE",
+      "Wikilink": "https:\/\/en.wikipedia.org\/wiki\/T-Mobile"
    },
    {
       "PkMobitel": 7,
@@ -186,7 +192,8 @@
       ],
       "Zvucnik": true,
       "Cijena": "200 EUR",
-      "Bluetooth": "5.0, A2DP, LE"
+      "Bluetooth": "5.0, A2DP, LE",
+      "Wikilink": "https:\/\/bs.wikipedia.org\/wiki\/LG_(korporacija)"
    },
    {
       "PkMobitel": 8,
@@ -213,7 +220,8 @@
       ],
       "Zvucnik": true,
       "Cijena": "200 EUR",
-      "Bluetooth": "5.0, 2DP, LE"
+      "Bluetooth": "5.0, 2DP, LE",
+      "Wikilink": "https:\/\/hr.wikipedia.org\/wiki\/Motorola"
    },
    {
       "PkMobitel": 9,
@@ -240,7 +248,8 @@
       ],
       "Zvucnik": true,
       "Cijena": "120 EUR",
-      "Bluetooth": "v4.1, A2DP, LE"
+      "Bluetooth": "v4.1, A2DP, LE",
+      "Wikilink": "https:\/\/hr.wikipedia.org\/wiki\/Microsoft"
    },
    {
       "PkMobitel": 10,
@@ -267,6 +276,7 @@
       ],
       "Zvucnik": true,
       "Cijena": "1100 EUR",
-      "Bluetooth": "5.1, A2DP, aptX HD, LE"
+      "Bluetooth": "5.1, A2DP, aptX HD, LE",
+      "Wikilink": "https:\/\/hr.wikipedia.org\/wiki\/Huawei"
    }
 ]
