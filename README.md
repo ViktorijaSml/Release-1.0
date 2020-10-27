@@ -18,9 +18,9 @@ Repozitorij za prvu laboratorijsku vjezbu.
 <h5>Jezik</h5>
 <p>hrvatski</p>
 <h5>Opis podataka</h5>
-<p>Stupci u .csv i ključevi u .json datotekama označavaju glavne specifikacije određenog mobilnog telefona. 
-Marka - tvrtka u kojoj je izrađen
-Dimenzije, rezolucija, boje... - fizički opis telefona
+<p>Stupci u .csv i ključevi u .json datotekama označavaju glavne specifikacije određenog mobilnog telefona. <br>
+Marka - tvrtka u kojoj je izrađen<br>
+Dimenzije, rezolucija, boje... - fizički opis telefona<br>
 Cijena - prosječna cijena telefona na tržištu</p>
 <h5>Zadnja modifikacija</h5>
 <p>27. listopada, 2020. - 10:06</p>
