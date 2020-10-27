@@ -31,6 +31,6 @@ Dimenzije, rezolucija, boje... - fizički opis telefona<br>
 Cijena - prosječna cijena telefona na tržištu</p>
 <hr style="clear:both;"/>
 <h5 style="text-align:left;float:left;">Zadnja modifikacija</h5>
-<p tyle="text-align:right;float:right;">27. listopada, 2020. - 10:06</p>
+<p tyle="text-align:right;float:right;">27. listopada, 2020. - 12:09</p>
 <hr style="clear:both;"/>
 
