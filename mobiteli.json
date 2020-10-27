@@ -1,0 +1,272 @@
+[
+   {
+      "PkMobitel": 1,
+      "Marka": "Apple",
+      "Naziv": "iPhone 12 Pro",
+      "DatumIzdanja": "2020-10-13",
+      "Dimenzije": {
+         "Tezina": "198 g",
+         "Mjere": "158.1 x 73.1 x 8.8 mm"
+      },
+      "Boje": [
+         "Crna",
+         "Srebrena",
+         "Ljubicasta",
+         "Zelena"
+      ],
+      "Rezolucija": "1170 x 2532 pix",
+      "OS": "iOS 14",
+      "Kamera": [
+         {
+            "Karakteristike": "Leica optics, dual LED dual tone flash, panorama, HDR",
+            "Video": "2160p@30/60fps"
+         }
+      ],
+      "Zvucnik": true,
+      "Cijena": "1120 EUR",
+      "Bluetooth": "5.0, A2DP, LE"
+   },
+   {
+      "PkMobitel": 2,
+      "Marka": "Nokia",
+      "Naziv": "C5 Endi",
+      "DatumIzdanja": "2020-06-05",
+      "Dimenzije": {
+         "Tezina": "198 g",
+         "Mjere": "158.1 x 73.1 x 8.8 mm"
+      },
+      "Boje": [
+         "Crna",
+         "Srebrena",
+         "Ljubicasta",
+         "Zelena"
+      ],
+      "Rezolucija": "720 x 1600 pix",
+      "OS": "Android 10",
+      "Kamera": [
+         {
+            "Karakteristike": "Leica optics, dual LED dual tone flash, panorama, HDR",
+            "Video": "2160p@30/60fps"
+         }
+      ],
+      "Zvucnik": true,
+      "Cijena": "150 EUR",
+      "Bluetooth": "5.0 A2DP, LE"
+   },
+   {
+      "PkMobitel": 3,
+      "Marka": "Samsung",
+      "Naziv": "Galaxy A41",
+      "DatumIzdanja": "2020-03-18",
+      "Dimenzije": {
+         "Tezina": "198 g",
+         "Mjere": "158.1 x 73.1 x 8.8 mm"
+      },
+      "Boje": [
+         "Crna",
+         "Srebrena",
+         "Ljubicasta",
+         "Zelena"
+      ],
+      "Rezolucija": "1080 x 2400 pix",
+      "OS": "Android 10",
+      "Kamera": [
+         {
+            "Karakteristike": "Leica optics, dual LED dual tone flash, panorama, HDR",
+            "Video": "2160p@30/60fps"
+         }
+      ],
+      "Zvucnik": true,
+      "Cijena": "300 EUR",
+      "Bluetooth": "5.0 A2DP, LE"
+   },
+   {
+      "PkMobitel": 4,
+      "Marka": "Sony",
+      "Naziv": "Xperia 5",
+      "DatumIzdanja": "2019-10-20",
+      "Dimenzije": {
+         "Tezina": "198 g",
+         "Mjere": "158.1 x 73.1 x 8.8 mm"
+      },
+      "Boje": [
+         "Crna",
+         "Srebrena",
+         "Ljubicasta",
+         "Zelena"
+      ],
+      "Rezolucija": "1080 x 2520 pix",
+      "OS": "Android 9.0",
+      "Kamera": [
+         {
+            "Karakteristike": "Leica optics, dual LED dual tone flash, panorama, HDR",
+            "Video": "2160p@30/60fps"
+         }
+      ],
+      "Zvucnik": true,
+      "Cijena": "800 EUR",
+      "Bluetooth": "5.0 A2DP, aptX HD, LE"
+   },
+   {
+      "PkMobitel": 5,
+      "Marka": "Vodafone",
+      "Naziv": "Smart X9",
+      "DatumIzdanja": "2018-12-15",
+      "Dimenzije": {
+         "Tezina": "198 g",
+         "Mjere": "158.1 x 73.1 x 8.8 mm"
+      },
+      "Boje": [
+         "Crna",
+         "Srebrena",
+         "Ljubicasta",
+         "Zelena"
+      ],
+      "Rezolucija": "1080 x 2160 pix",
+      "OS": "Android 8.1",
+      "Kamera": [
+         {
+            "Karakteristike": "Leica optics, dual LED dual tone flash, panorama, HDR",
+            "Video": "2160p@30/60fps"
+         }
+      ],
+      "Zvucnik": true,
+      "Cijena": "110 EUR",
+      "Bluetooth": "4.2, A2Dp, LE"
+   },
+   {
+      "PkMobitel": 6,
+      "Marka": "T-Mobile",
+      "Naziv": "Revvlry",
+      "DatumIzdanja": "2019-06-23",
+      "Dimenzije": {
+         "Tezina": "198 g",
+         "Mjere": "158.1 x 73.1 x 8.8 mm"
+      },
+      "Boje": [
+         "Crna",
+         "Srebrena",
+         "Ljubicasta",
+         "Zelena"
+      ],
+      "Rezolucija": "720 x 1520 pix",
+      "OS": "Android 9.0",
+      "Kamera": [
+         {
+            "Karakteristike": "Leica optics, dual LED dual tone flash, panorama, HDR",
+            "Video": "2160p@30/60fps"
+         }
+      ],
+      "Zvucnik": true,
+      "Cijena": "200 EUR",
+      "Bluetooth": "4.2, A2DP, LE"
+   },
+   {
+      "PkMobitel": 7,
+      "Marka": "LG",
+      "Naziv": "Stylo 6",
+      "DatumIzdanja": "2020-04-20",
+      "Dimenzije": {
+         "Tezina": "198 g",
+         "Mjere": "158.1 x 73.1 x 8.8 mm"
+      },
+      "Boje": [
+         "Crna",
+         "Srebrena",
+         "Ljubicasta",
+         "Zelena"
+      ],
+      "Rezolucija": "1080 x 2460 pix",
+      "OS": "Android 10",
+      "Kamera": [
+         {
+            "Karakteristike": "Leica optics, dual LED dual tone flash, panorama, HDR",
+            "Video": "2160p@30/60fps"
+         }
+      ],
+      "Zvucnik": true,
+      "Cijena": "200 EUR",
+      "Bluetooth": "5.0, A2DP, LE"
+   },
+   {
+      "PkMobitel": 8,
+      "Marka": "Motorola",
+      "Naziv": "One Fusion",
+      "DatumIzdanja": "2020-07-02",
+      "Dimenzije": {
+         "Tezina": "198 g",
+         "Mjere": "158.1 x 73.1 x 8.8 mm"
+      },
+      "Boje": [
+         "Crna",
+         "Srebrena",
+         "Ljubicasta",
+         "Zelena"
+      ],
+      "Rezolucija": "720 x 1600 pix",
+      "OS": "Android 10",
+      "Kamera": [
+         {
+            "Karakteristike": "Leica optics, dual LED dual tone flash, panorama, HDR",
+            "Video": "2160p@30/60fps"
+         }
+      ],
+      "Zvucnik": true,
+      "Cijena": "200 EUR",
+      "Bluetooth": "5.0, 2DP, LE"
+   },
+   {
+      "PkMobitel": 9,
+      "Marka": "Microsoft",
+      "Naziv": "Lumia 650",
+      "DatumIzdanja": "2016-02-15",
+      "Dimenzije": {
+         "Tezina": "198 g",
+         "Mjere": "158.1 x 73.1 x 8.8 mm"
+      },
+      "Boje": [
+         "Crna",
+         "Srebrena",
+         "Ljubicasta",
+         "Zelena"
+      ],
+      "Rezolucija": "720 x 1280 pix",
+      "OS": "Microsoft Windows 10",
+      "Kamera": [
+         {
+            "Karakteristike": "Leica optics, dual LED dual tone flash, panorama, HDR",
+            "Video": "2160p@30/60fps"
+         }
+      ],
+      "Zvucnik": true,
+      "Cijena": "120 EUR",
+      "Bluetooth": "v4.1, A2DP, LE"
+   },
+   {
+      "PkMobitel": 10,
+      "Marka": "Huawei",
+      "Naziv": "Mate 30 Pro",
+      "DatumIzdanja": "2019-09-06",
+      "Dimenzije": {
+         "Tezina": "198 g",
+         "Mjere": "158.1 x 73.1 x 8.8 mm"
+      },
+      "Boje": [
+         "Crna",
+         "Srebrena",
+         "Ljubicasta",
+         "Zelena"
+      ],
+      "Rezolucija": "1176 x 2400 pix",
+      "OS": "Android 10, EMUI 10",
+      "Kamera": [
+         {
+            "Karakteristike": "Leica optics, dual LED dual tone flash, panorama, HDR",
+            "Video": "2160p@30/60fps"
+         }
+      ],
+      "Zvucnik": true,
+      "Cijena": "1100 EUR",
+      "Bluetooth": "5.1, A2DP, aptX HD, LE"
+   }
+]
