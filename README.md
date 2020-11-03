@@ -1,4 +1,4 @@
-# Release-1.0
+# Release
 Repozitorij za prvu laboratorijsku vjezbu.
 <h2 style="text-align:left;float:left;">Naslov</h2>
 <p tyle="text-align:right;float:right;">1. Laboratorijska vježba</p>
