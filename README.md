@@ -27,7 +27,16 @@ Repozitorij za prvu laboratorijsku vjezbu.
 <h5 style="text-align:left;float:left;">Opis podataka</h5>
 <p tyle="text-align:right;float:right;">Stupci u .csv i ključevi u .json datotekama označavaju glavne specifikacije određenog mobilnog telefona. <br>
 Marka - tvrtka u kojoj je izrađen<br>
-Dimenzije, rezolucija, boje... - fizički opis telefona<br>
+Naziv - naziv tipa mobitela čije specifikacije promatramo<br>
+DatumIzdanja - datum izdanja javnosti određenog mobitela<br>
+Dimenzije - fizički aspekt mobitela; njegova težina [g] i mjere (visina x širina x debljina) [mm]<br>
+Boje - u kojim bojama je mobitel dostipan na tržištu <br>
+Rezolucija - broj pixela koji se mogu prikazati na ekranu<br>
+OS - "Operating system"; operacijski sustav koji upravlja na mobitelu (koji i verzija)<br>
+Kamera - specifikacije o kameri na mobitelu; karakteristike (što sve može i sadrđi) i video (kvaliteta videa u pixelima i brzini reprodukcije tj. "frames per second")<br>
+Zvucnik - sadrži li zvučnik<br>
+Bluethooth - koju verziju Blueathootha sadržava<br>
+Wikilink - link na Wikipediju o firmi mobitela kojeg promatramo<br>  
 Cijena - prosječna cijena telefona na tržištu</p>
 <hr style="clear:both;"/>
 <h5 style="text-align:left;float:left;">Zadnja modifikacija</h5>
