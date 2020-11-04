@@ -33,7 +33,7 @@ Dimenzije - fizički aspekt mobitela; njegova težina [g] i mjere (visina x šir
 Boje - u kojim bojama je mobitel dostipan na tržištu <br>
 Rezolucija - broj pixela koji se mogu prikazati na ekranu<br>
 OS - "Operating system"; operacijski sustav koji upravlja na mobitelu (koji i verzija)<br>
-Kamera - specifikacije o kameri na mobitelu; karakteristike (što sve može i sadrđi) i video (kvaliteta videa u pixelima i brzini reprodukcije tj. "frames per second")<br>
+Kamera - specifikacije o kameri na mobitelu; karakteristike (što sve može i sadrži) i video (kvaliteta videa u pixelima i brzini reprodukcije tj. "frames per second")<br>
 Zvucnik - sadrži li zvučnik<br>
 Bluethooth - koju verziju Blueathootha sadržava<br>
 Wikilink - link na Wikipediju o firmi mobitela kojeg promatramo<br>  
