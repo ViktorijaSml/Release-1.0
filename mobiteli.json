@@ -5,27 +5,26 @@
       "Naziv": "iPhone 12 Pro",
       "DatumIzdanja": "2020-10-13",
       "Dimenzije": {
-         "Tezina": "198 g",
-         "Mjere": "158.1 x 73.1 x 8.8 mm"
+         "Tezina": "189g",
+         "Mjere": "146.6 x 71.5 x 7.4 mm"
       },
       "Boje": [
          "Crna",
          "Srebrena",
-         "Ljubicasta",
-         "Zelena"
+         "Bijela"
       ],
       "Rezolucija": "1170 x 2532 pix",
       "OS": "iOS 14",
       "Kamera": [
          {
-            "Karakteristike": "Leica optics, dual LED dual tone flash, panorama, HDR",
-            "Video": "2160p@30/60fps"
+            "Karakteristike": "Quad-LED dual-tone flash, HDR (photo/panorama)",
+            "Video": "4K@24/30/60fps, 1080p@30/60/120/240fps"
          }
       ],
       "Zvucnik": true,
       "Cijena": "1120 EUR",
       "Bluetooth": "5.0, A2DP, LE",
-      "Wikilink": "https:\/\/hr.wikipedia.org\/wiki\/Apple_Inc."
+      "Wikilink": "Apple Inc."
    },
    {
       "PkMobitel": 2,
@@ -33,27 +32,25 @@
       "Naziv": "C5 Endi",
       "DatumIzdanja": "2020-06-05",
       "Dimenzije": {
-         "Tezina": "198 g",
-         "Mjere": "158.1 x 73.1 x 8.8 mm"
+         "Tezina": "200g",
+         "Mjere": "171.7 x 76,7 x 8.9 mm"
       },
       "Boje": [
-         "Crna",
-         "Srebrena",
-         "Ljubicasta",
-         "Zelena"
+         "Tamno plava",
+         "Crna"
       ],
       "Rezolucija": "720 x 1600 pix",
       "OS": "Android 10",
       "Kamera": [
          {
-            "Karakteristike": "Leica optics, dual LED dual tone flash, panorama, HDR",
-            "Video": "2160p@30/60fps"
+            "Karakteristike": "LED flash, HDR, panorama",
+            "Video": "1080p@30fps"
          }
       ],
       "Zvucnik": true,
       "Cijena": "150 EUR",
       "Bluetooth": "5.0 A2DP, LE",
-      "Wikilink": "https:\/\/hr.wikipedia.org\/wiki\/Nokia"
+      "Wikilink": "Nokia"
    },
    {
       "PkMobitel": 3,
@@ -61,27 +58,27 @@
       "Naziv": "Galaxy A41",
       "DatumIzdanja": "2020-03-18",
       "Dimenzije": {
-         "Tezina": "198 g",
-         "Mjere": "158.1 x 73.1 x 8.8 mm"
+         "Tezina": "152g",
+         "Mjere": "149.9 x 69.8 x 7.9 mm"
       },
       "Boje": [
-         "Crna",
+         "Zelena",
          "Srebrena",
-         "Ljubicasta",
-         "Zelena"
+         "Crna",
+         "Tamno plava"
       ],
       "Rezolucija": "1080 x 2400 pix",
       "OS": "Android 10",
       "Kamera": [
          {
-            "Karakteristike": "Leica optics, dual LED dual tone flash, panorama, HDR",
-            "Video": "2160p@30/60fps"
+            "Karakteristike": "LED flash, panorama, HDR",
+            "Video": "2160p@30fps, 1080p"
          }
       ],
       "Zvucnik": true,
       "Cijena": "300 EUR",
       "Bluetooth": "5.0 A2DP, LE",
-      "Wikilink": "https:\/\/hr.wikipedia.org\/wiki\/Samsung"
+      "Wikilink": "Samsung"
    },
    {
       "PkMobitel": 4,
@@ -89,27 +86,27 @@
       "Naziv": "Xperia 5",
       "DatumIzdanja": "2019-10-20",
       "Dimenzije": {
-         "Tezina": "198 g",
-         "Mjere": "158.1 x 73.1 x 8.8 mm"
+         "Tezina": "164 g",
+         "Mjere": "158 x 68 x 8.2 mm"
       },
       "Boje": [
+         "Plava",
+         "Crvena",
          "Crna",
-         "Srebrena",
-         "Ljubicasta",
-         "Zelena"
+         "Siva"
       ],
       "Rezolucija": "1080 x 2520 pix",
       "OS": "Android 9.0",
       "Kamera": [
          {
-            "Karakteristike": "Leica optics, dual LED dual tone flash, panorama, HDR",
-            "Video": "2160p@30/60fps"
+            "Karakteristike": "LED flash, panorama, HDR, eye tracking",
+            "Video": "2160@24/30fps HDR, 1080p@60fps"
          }
       ],
       "Zvucnik": true,
       "Cijena": "800 EUR",
       "Bluetooth": "5.0 A2DP, aptX HD, LE",
-      "Wikilink": "https:\/\/hr.wikipedia.org\/wiki\/Sony"
+      "Wikilink": "Sony"
    },
    {
       "PkMobitel": 5,
@@ -117,27 +114,24 @@
       "Naziv": "Smart X9",
       "DatumIzdanja": "2018-12-15",
       "Dimenzije": {
-         "Tezina": "198 g",
-         "Mjere": "158.1 x 73.1 x 8.8 mm"
+         "Tezina": "153 g",
+         "Mjere": "148.2 x 71.3 x 8mm"
       },
       "Boje": [
-         "Crna",
-         "Srebrena",
-         "Ljubicasta",
-         "Zelena"
+         "Crna"
       ],
       "Rezolucija": "1080 x 2160 pix",
       "OS": "Android 8.1",
       "Kamera": [
          {
-            "Karakteristike": "Leica optics, dual LED dual tone flash, panorama, HDR",
-            "Video": "2160p@30/60fps"
+            "Karakteristike": "LED flash, HDR, panorama",
+            "Video": "1080p@30fps"
          }
       ],
       "Zvucnik": true,
       "Cijena": "110 EUR",
       "Bluetooth": "4.2, A2Dp, LE",
-      "Wikilink": "https:\/\/en.wikipedia.org\/wiki\/Vodafone"
+      "Wikilink": "Vodafone"
    },
    {
       "PkMobitel": 6,
@@ -145,27 +139,24 @@
       "Naziv": "Revvlry",
       "DatumIzdanja": "2019-06-23",
       "Dimenzije": {
-         "Tezina": "198 g",
-         "Mjere": "158.1 x 73.1 x 8.8 mm"
+         "Tezina": "nema podataka",
+         "Mjere": "148.6 x 71.4 x 8.1 mm"
       },
       "Boje": [
-         "Crna",
-         "Srebrena",
-         "Ljubicasta",
-         "Zelena"
+         "Crna"
       ],
       "Rezolucija": "720 x 1520 pix",
       "OS": "Android 9.0",
       "Kamera": [
          {
-            "Karakteristike": "Leica optics, dual LED dual tone flash, panorama, HDR",
-            "Video": "2160p@30/60fps"
+            "Karakteristike": "LED flash, panorama, HDR",
+            "Video": "1080p@30fps"
          }
       ],
       "Zvucnik": true,
       "Cijena": "200 EUR",
       "Bluetooth": "4.2, A2DP, LE",
-      "Wikilink": "https:\/\/en.wikipedia.org\/wiki\/T-Mobile"
+      "Wikilink": "T-Mobile"
    },
    {
       "PkMobitel": 7,
@@ -173,27 +164,24 @@
       "Naziv": "Stylo 6",
       "DatumIzdanja": "2020-04-20",
       "Dimenzije": {
-         "Tezina": "198 g",
-         "Mjere": "158.1 x 73.1 x 8.8 mm"
+         "Tezina": "219 g",
+         "Mjere": "171.2 x 77.7 x 8.6 mm"
       },
       "Boje": [
-         "Crna",
-         "Srebrena",
-         "Ljubicasta",
-         "Zelena"
+         "Crna"
       ],
       "Rezolucija": "1080 x 2460 pix",
       "OS": "Android 10",
       "Kamera": [
          {
-            "Karakteristike": "Leica optics, dual LED dual tone flash, panorama, HDR",
-            "Video": "2160p@30/60fps"
+            "Karakteristike": "LED flash, panorama, HDR",
+            "Video": "1080p30fps"
          }
       ],
       "Zvucnik": true,
       "Cijena": "200 EUR",
       "Bluetooth": "5.0, A2DP, LE",
-      "Wikilink": "https:\/\/bs.wikipedia.org\/wiki\/LG_(korporacija)"
+      "Wikilink": "LG_(korporacija)"
    },
    {
       "PkMobitel": 8,
@@ -201,27 +189,25 @@
       "Naziv": "One Fusion",
       "DatumIzdanja": "2020-07-02",
       "Dimenzije": {
-         "Tezina": "198 g",
-         "Mjere": "158.1 x 73.1 x 8.8 mm"
+         "Tezina": "202 g",
+         "Mjere": "165 x 75.9 x 9.4 mm"
       },
       "Boje": [
-         "Crna",
-         "Srebrena",
-         "Ljubicasta",
-         "Zelena"
+         "Smaragd zelena",
+         "Tamno plava"
       ],
       "Rezolucija": "720 x 1600 pix",
       "OS": "Android 10",
       "Kamera": [
          {
-            "Karakteristike": "Leica optics, dual LED dual tone flash, panorama, HDR",
-            "Video": "2160p@30/60fps"
+            "Karakteristike": "LED flash, panorama, HDR",
+            "Video": "4K@30fps, 1080p@30fps"
          }
       ],
       "Zvucnik": true,
       "Cijena": "200 EUR",
       "Bluetooth": "5.0, 2DP, LE",
-      "Wikilink": "https:\/\/hr.wikipedia.org\/wiki\/Motorola"
+      "Wikilink": "Motorola"
    },
    {
       "PkMobitel": 9,
@@ -229,27 +215,25 @@
       "Naziv": "Lumia 650",
       "DatumIzdanja": "2016-02-15",
       "Dimenzije": {
-         "Tezina": "198 g",
-         "Mjere": "158.1 x 73.1 x 8.8 mm"
+         "Tezina": "122 g",
+         "Mjere": "142 x 70.9 x 6.9 mm"
       },
       "Boje": [
          "Crna",
-         "Srebrena",
-         "Ljubicasta",
-         "Zelena"
+         "Bijela"
       ],
       "Rezolucija": "720 x 1280 pix",
       "OS": "Microsoft Windows 10",
       "Kamera": [
          {
-            "Karakteristike": "Leica optics, dual LED dual tone flash, panorama, HDR",
-            "Video": "2160p@30/60fps"
+            "Karakteristike": "1/4 sensor size",
+            "Video": "720p@30fps"
          }
       ],
       "Zvucnik": true,
       "Cijena": "120 EUR",
       "Bluetooth": "v4.1, A2DP, LE",
-      "Wikilink": "https:\/\/hr.wikipedia.org\/wiki\/Microsoft"
+      "Wikilink": "Microsoft"
    },
    {
       "PkMobitel": 10,
@@ -277,6 +261,6 @@
       "Zvucnik": true,
       "Cijena": "1100 EUR",
       "Bluetooth": "5.1, A2DP, aptX HD, LE",
-      "Wikilink": "https:\/\/hr.wikipedia.org\/wiki\/Huawei"
+      "Wikilink": "Huawei"
    }
 ]
