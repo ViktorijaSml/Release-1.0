@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <h1>Mobiteli</h1>
+   <meta name="description" content="Podaci za 2. laboratorijsku vježbu">
+   <meta name="keywords" content="labos,mobiteli,mobitel">
+   <meta name="author" content="Viktorija Smlatić">
+   <title> Mobiteli</title>
+   <style>
+      table {
+         font-family: Arial, Helvetica, sans-serif;
+         margin: 1cm;
+         margin-top: 0.5cm;
+         font-size: 80%;
+         border-collapse: collapse;
+         width: 50%;
+      }
+
+      td,
+      p {
+         font-size: 18px;
+         margin: 0.5cm;
+      }
+
+      th {
+         font-weight: normal;
+         border: 1px solid #dddddd;
+         text-align: left;
+         padding: 8px;
+         max-width: 300 px;
+      }
+
+      tr:nth-child(even) {
+         background-color: #dddddd;
+      }
+   </style>
+</head>
+
+<body>
+   <p>Ovo je stranica za 2. laboratorijsku vježbu.</p>
+   <p style="font-size: 12;">
+      <b>JSON datoteka</b> <a
+         href="https://raw.githubusercontent.com/ViktorijaSml/Release/main/mobiteli.json">mobiteli.json</a><br>
+      <b>CSV datoteka</b> <a href="https://github.com/ViktorijaSml/Release/blob/main/mobiteli.csv">mobiteli.csv</a><br>
+   </p>
+   <p>Filtriraj podatke: <a href="">datatable.html</a></p>
+   <table summary="Ovo je tablica osnovnih metapodataka">
+
+      <div>
+         <h2 style="margin: 1cm">Osnovni metapodaci</h2>
+         <tr>
+            <th style="font-weight: bold;">Autor</th>
+            <th>Viktorija Smlatić</th>
+         </tr>
+         <tr>
+            <th style="font-weight: bold;">JMBAG</th>
+            <th>0036518212</th>
+         </tr>
+         <tr>
+            <th style="font-weight: bold;">Tema</th>
+            <th>popularni mobilni telefoni</th>
+         </tr>
+         <tr>
+            <th style="font-weight: bold;">Datum objave</th>
+            <th>27.10.2020.</th>
+         </tr>
+         <tr>
+            <th style="font-weight: bold;">Kontakt - mail</th>
+            <th>vsmlatic@gmail.com</th>
+         </tr>
+         <tr>
+            <th style="font-weight: bold;">Verzija</th>
+            <th>2.0 </th>
+         </tr>
+         <tr>
+            <th style="font-weight: bold;">Licenca - opis</th>
+            <th>Creative Commons - javna licenca za autorska prava koja omogućuje besplatnu distribuciju inače
+               zaštićenog
+               autorskim pravima. Autor daje drugima pravo da dijele, koriste i grade na djelu koje je stvorio.</th>
+         </tr>
+         <tr>
+            <th style="font-weight: bold;">Jezik</th>
+            <th>hrvatski</th>
+         </tr>
+         <tr>
+            <th style="font-weight: bold;">Zadnja modifikacija</th>
+            <th> 9. studenog, 2020. - 12:58</th>
+         </tr>
+   </table>
+   <hr style="clear:both;">
+   </div>
+   <div>
+      <h2 style="margin: 1cm">Opis podataka</h2>
+      <table
+         summary="Stupci u .csv i ključevi u .json datotekama označavaju glavne specifikacije određenog mobilnog telefona.">
+         <tr>
+            <th style="font-weight: bold;">Marka</th>
+            <th>tvrtka u kojoj je izrađen</th>
+         </tr>
+         <tr>
+            <th style="font-weight: bold;">Naziv </th>
+            <th>naziv tipa mobitela čije specifikacije promatramo</th>
+         </tr>
+         <tr>
+            <th style="font-weight: bold;">DatumIzdanja </th>
+            <th>datum izdanja javnosti određenog mobitela</th>
+         </tr>
+         <tr>
+            <th style="font-weight: bold;">Dimenzije</th>
+            <th>fizički aspekt mobitela; njegova težina [g] i mjere (visina x širina x debljina) [mm]</th>
+         </tr>
+         <tr>
+            <th style="font-weight: bold;">Boje</th>
+            <th>u kojim bojama je mobitel dostipan na tržištu</th>
+         </tr>
+         <tr>
+            <th style="font-weight: bold;">Rezolucija</th>
+            <th>broj pixela koji se mogu prikazati na ekranu</th>
+         </tr>
+         <tr>
+            <th style="font-weight: bold;">OS</th>
+            <th>"Operating system"; operacijski sustav koji upravlja na mobitelu (koji i verzija)</th>
+         </tr>
+         <tr>
+            <th style="font-weight: bold;">Kamera</th>
+            <th>specifikacije o kameri na mobitelu; karakteristike (što sve može i sadrži) i video (kvaliteta videa u
+               pixelima i brzini reprodukcije tj. "frames per second")</th>
+         </tr>
+         <tr>
+            <th style="font-weight: bold;">Zvucnik</th>
+            <th>sadrži li zvučnik (1 - da, 0 - ne)</th>
+         </tr>
+         <tr>
+            <th style="font-weight: bold;">Bluethooth</th>
+            <th>koju verziju Blueathootha sadržava</th>
+         </tr>
+         <tr>
+            <th style="font-weight: bold;">Wikilink </th>
+            <th>link na Wikipediju o firmi mobitela kojeg promatramo</th>
+         </tr>
+         <tr>
+            <th style="font-weight: bold;">Cijena</th>
+            <th>prosječna cijena telefona na tržištu</th>
+         </tr>
+      </table>
+      <hr style="clear:both;" />
+   </div>
+</body>
+
+</html>

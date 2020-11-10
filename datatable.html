@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>Prikaz podataka</title>
+
+   <style>
+      #myTable {
+         border-collapse: collapse;
+         width: 100%;
+         border: 1px solid #ddd;
+         font-size: 10px;
+      }
+
+      #myTable th,
+      #myTable td {
+         text-align: left;
+         padding: 12px;
+      }
+
+      #myTable tr {
+         border-bottom: 1px solid #ddd;
+      }
+
+      #myTable tr.header,
+      #myTable tr:hover {
+         background-color: #f1f1f1;
+      }
+
+      #myInput {
+         margin-bottom: 12px;
+         font-size: 16px;
+         margin-bottom: 1cm;
+         margin-top: 1.5cm;
+         box-sizing: border-box;
+         background-repeat: no-repeat;
+      }
+
+      input[type=text] {
+         border: 2px solid rgb(97, 91, 91);
+         border-radius: 4px;
+         padding-left: 20px;
+         height: 1cm;
+      }
+
+      .dropbtn {
+         background-color: #45485e;
+         color: white;
+         padding: 10px;
+         font-size: 14px;
+         border: none;
+         width: 4.23cm;
+         border-radius: 4px;
+      }
+
+      .dropdown {
+         position: relative;
+         display: inline-block;
+      }
+
+      .dropdown-content {
+         display: none;
+         position: absolute;
+         background-color: #f1f1f1;
+         min-width: 160px;
+         box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+         z-index: 1;
+      }
+
+      .dropdown-content option {
+         color: black;
+         padding: 12px 12px;
+         text-decoration: none;
+         display: block;
+      }
+
+      .dropdown-content option:hover {
+         background-color: #ddd;
+         cursor: pointer;
+      }
+
+      .dropdown:hover .dropdown-content {
+         display: block;
+         cursor: pointer;
+      }
+
+      .dropdown:hover .dropbtn {
+         background-color: #1e212e;
+         cursor: pointer;
+      }
+
+      .button {
+         background-color: #536de0;
+         color: white;
+         padding: 10px;
+         font-size: 14px;
+         border: none;
+         border-radius: 4px;
+         margin-left: 1cm;
+         margin-bottom: 2cm;
+      }
+
+      .button:hover {
+         background-color: #4256ad;
+         cursor: pointer;
+      }
+   </style>
+</head>
+
+<body>
+   <h1 style="margin-left: 1cm;">Prikaz podataka</h1>
+   <p style="margin-left: 1cm;">Na ovoj stranici možete izdvojiti podatke po određenim
+      atributima i vrijednostima po želji.
+   </p>
+   <div>
+      <input type="text" id="myInput" style="margin-left: 1cm;" placeholder="Pretraži vrijednost..."
+         onkeyup="myFunction()">
+
+      <select id="myDropdown" onclick="myDecision()">
+         <option value="13">Sva polja</option>
+         <option value="0">PkMobitel</option>
+         <option value="1">Marka</option>
+         <option value="2">Naziv</option>
+         <option value="3">Datum Izdanja</option>
+         <option value="4">Dimenzije</option>
+         <option value="5">Boje</option>
+         <option value="6">Rezolucija</option>
+         <option value="7">Operacijski sustav</option>
+         <option value="8">Kamera</option>
+         <option value="9">Zvučnik</option>
+         <option value="10">Cijena</option>
+         <option value="11">Bluethooth</option>
+         <option value="12">Wikilink</option>
+      </select>
+
+      <div>
+         <button class="button" id="pretragaj" onclick="toJSON()">Pretvori u JSON</button>
+         <button class="button" id="pretragac" onclick="toCSV()">Pretvori u CSV</button>
+
+      </div>
+      <fieldset>
+         <p style="font-size: 10; margin-left: 1cm;"> Ovdje možete preuzeti podatke: </p>
+         <pre style="margin-left: 1cm;">
+<b>JSON datoteka</b> <a href="https://raw.githubusercontent.com/ViktorijaSml/Release/main/novimobiteli.json">mobiteli_filtrirano.json</a>
+<b>CSV datoteka</b> <a href="https://raw.githubusercontent.com/ViktorijaSml/Release/main/novimobiteli.csv">mobiteli_filtrirano.csv</a></pre>
+      </fieldset>
+   </div>
+   <button class="button" id="tabl" onclick="CreateTable()">Prikaži tablicu</button>
+   <table id="myTable">
+   </table>
+   <script src="filter.js">
+   </script>
+   <script>
+      var num = 0;
+
+      function myDecision() {
+         var e = document.getElementById("myDropdown");
+         var value = e.options[e.selectedIndex].value;
+         num = parseInt(value, 10);
+      }
+
+      function myFunction() {
+         var input, filter, table, tr, td, i, txtValue;
+         input = document.getElementById("myInput");
+         filter = input.value.toUpperCase();
+         table = document.getElementById("myTable");
+         tr = table.getElementsByTagName("tr");
+         for (i = 0; i < tr.length; i++) {
+            if (num === 13) {
+               var td1 = tr[i].getElementsByTagName("td")[0];
+               var td2 = tr[i].getElementsByTagName("td")[1];
+               var td3 = tr[i].getElementsByTagName("td")[2];
+               var td4 = tr[i].getElementsByTagName("td")[3];
+               var td5 = tr[i].getElementsByTagName("td")[4];
+               var td6 = tr[i].getElementsByTagName("td")[5];
+               var td7 = tr[i].getElementsByTagName("td")[6];
+               var td8 = tr[i].getElementsByTagName("td")[7];
+               var td9 = tr[i].getElementsByTagName("td")[8];
+               var td10 = tr[i].getElementsByTagName("td")[9];
+               if (td) {
+                  txtValue = td.textContent || td.innerText;
+                  if ((td1.innerHTML.toUpperCase().indexOf(filter) > -1) ||
+                     (td2.innerHTML.toUpperCase().indexOf(filter) > -1) ||
+                     (td3.innerHTML.toUpperCase().indexOf(filter) > -1) ||
+                     (td4.innerHTML.toUpperCase().indexOf(filter) > -1) ||
+                     (td5.innerHTML.toUpperCase().indexOf(filter) > -1) ||
+                     (td6.innerHTML.toUpperCase().indexOf(filter) > -1) ||
+                     (td7.innerHTML.toUpperCase().indexOf(filter) > -1) ||
+                     (td8.innerHTML.toUpperCase().indexOf(filter) > -1) ||
+                     (td9.innerHTML.toUpperCase().indexOf(filter) > -1) ||
+                     (td10.innerHTML.toUpperCase().indexOf(filter) > -1)) {
+                     tr[i].style.display = "";
+                  } else {
+                     tr[i].style.display = "none";
+                  }
+               }
+            }
+            else {
+               td = tr[i].getElementsByTagName("td")[num];
+               if (td) {
+                  txtValue = td.textContent || td.innerText;
+                  if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                     tr[i].style.display = "";
+                  } else {
+                     tr[i].style.display = "none";
+                  }
+               }
+            }
+         }
+      }
+      function toJSON() {
+         table1 = document.getElementById("myTable");
+         data = tableToJson(table1);
+         var PhoneFilter = new XMLHttpRequest();
+         PhoneFilter.open("POST", "https://raw.githubusercontent.com/ViktorijaSml/Release/main/novimobiteli.json", true);
+         PhoneFilter.send(data);
+      }
+      function toCSV() {
+         var Phone = new XMLHttpRequest();
+         Phone.open('GET', 'https://raw.githubusercontent.com/ViktorijaSml/Release/main/novimobiteli.csv');
+         var doc = JSON.parse(Phone.responseText);
+
+         exportTableToCSV(doc);
+      }
+   </script>
+</body>
+
+</html>

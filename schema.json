@@ -1,0 +1,356 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "$id": "http://example.com/example.json",
+    "type": "array",
+    "title": "The root schema",
+    "description": "The root schema comprises the entire JSON document.",
+    "default": [],
+    "examples": [
+        [
+            {
+                "PkMobitel": 1,
+                "Marka": "Apple",
+                "Naziv": "iPhone 12 Pro",
+                "DatumIzdanja": "2020-10-13",
+                "Dimenzije": {
+                    "Tezina": "189g",
+                    "Mjere": "146.6 x 71.5 x 7.4 mm"
+                },
+                "Boje": [
+                    "Crna",
+                    "Srebrena",
+                    "Bijela"
+                ],
+                "Rezolucija": "1170 x 2532 pix",
+                "OS": "iOS 14",
+                "Kamera": [
+                    {
+                        "Karakteristike": "Quad-LED dual-tone flash, HDR (photo/panorama)",
+                        "Video": "4K@24/30/60fps, 1080p@30/60/120/240fps"
+                    }
+                ],
+                "Zvucnik": true,
+                "Cijena": "1120 EUR",
+                "Bluetooth": "5.0, A2DP, LE",
+                "Wikilink": "Apple Inc."
+            },
+            {
+                "PkMobitel": 2,
+                "Marka": "Nokia",
+                "Naziv": "C5 Endi",
+                "DatumIzdanja": "2020-06-05",
+                "Dimenzije": {
+                    "Tezina": "200g",
+                    "Mjere": "171.7 x 76,7 x 8.9 mm"
+                },
+                "Boje": [
+                    "Tamno plava",
+                    "Crna"
+                ],
+                "Rezolucija": "720 x 1600 pix",
+                "OS": "Android 10",
+                "Kamera": [
+                    {
+                        "Karakteristike": "LED flash, HDR, panorama",
+                        "Video": "1080p@30fps"
+                    }
+                ],
+                "Zvucnik": true,
+                "Cijena": "150 EUR",
+                "Bluetooth": "5.0 A2DP, LE",
+                "Wikilink": "Nokia"
+            }
+        ]
+    ],
+    "additionalItems": true,
+    "items": {
+        "$id": "#/items",
+        "anyOf": [
+            {
+                "$id": "#/items/anyOf/0",
+                "type": "object",
+                "title": "The first anyOf schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": {},
+                "examples": [
+                    {
+                        "PkMobitel": 1,
+                        "Marka": "Apple",
+                        "Naziv": "iPhone 12 Pro",
+                        "DatumIzdanja": "2020-10-13",
+                        "Dimenzije": {
+                            "Tezina": "189g",
+                            "Mjere": "146.6 x 71.5 x 7.4 mm"
+                        },
+                        "Boje": [
+                            "Crna",
+                            "Srebrena",
+                            "Bijela"
+                        ],
+                        "Rezolucija": "1170 x 2532 pix",
+                        "OS": "iOS 14",
+                        "Kamera": [
+                            {
+                                "Karakteristike": "Quad-LED dual-tone flash, HDR (photo/panorama)",
+                                "Video": "4K@24/30/60fps, 1080p@30/60/120/240fps"
+                            }
+                        ],
+                        "Zvucnik": true,
+                        "Cijena": "1120 EUR",
+                        "Bluetooth": "5.0, A2DP, LE",
+                        "Wikilink": "Apple Inc."
+                    }
+                ],
+                "required": [
+                    "PkMobitel",
+                    "Marka",
+                    "Naziv",
+                    "DatumIzdanja",
+                    "Dimenzije",
+                    "Boje",
+                    "Rezolucija",
+                    "OS",
+                    "Kamera",
+                    "Zvucnik",
+                    "Cijena",
+                    "Bluetooth",
+                    "Wikilink"
+                ],
+                "properties": {
+                    "PkMobitel": {
+                        "$id": "#/items/anyOf/0/properties/PkMobitel",
+                        "type": "integer",
+                        "title": "The PkMobitel schema",
+                        "description": "An explanation about the purpose of this instance.",
+                        "default": 0,
+                        "examples": [
+                            1
+                        ]
+                    },
+                    "Marka": {
+                        "$id": "#/items/anyOf/0/properties/Marka",
+                        "type": "string",
+                        "title": "The Marka schema",
+                        "description": "An explanation about the purpose of this instance.",
+                        "default": "",
+                        "examples": [
+                            "Apple"
+                        ]
+                    },
+                    "Naziv": {
+                        "$id": "#/items/anyOf/0/properties/Naziv",
+                        "type": "string",
+                        "title": "The Naziv schema",
+                        "description": "An explanation about the purpose of this instance.",
+                        "default": "",
+                        "examples": [
+                            "iPhone 12 Pro"
+                        ]
+                    },
+                    "DatumIzdanja": {
+                        "$id": "#/items/anyOf/0/properties/DatumIzdanja",
+                        "type": "string",
+                        "title": "The DatumIzdanja schema",
+                        "description": "An explanation about the purpose of this instance.",
+                        "default": "",
+                        "examples": [
+                            "2020-10-13"
+                        ]
+                    },
+                    "Dimenzije": {
+                        "$id": "#/items/anyOf/0/properties/Dimenzije",
+                        "type": "object",
+                        "title": "The Dimenzije schema",
+                        "description": "An explanation about the purpose of this instance.",
+                        "default": {},
+                        "examples": [
+                            {
+                                "Tezina": "189g",
+                                "Mjere": "146.6 x 71.5 x 7.4 mm"
+                            }
+                        ],
+                        "required": [
+                            "Tezina",
+                            "Mjere"
+                        ],
+                        "properties": {
+                            "Tezina": {
+                                "$id": "#/items/anyOf/0/properties/Dimenzije/properties/Tezina",
+                                "type": "string",
+                                "title": "The Tezina schema",
+                                "description": "An explanation about the purpose of this instance.",
+                                "default": "",
+                                "examples": [
+                                    "189g"
+                                ]
+                            },
+                            "Mjere": {
+                                "$id": "#/items/anyOf/0/properties/Dimenzije/properties/Mjere",
+                                "type": "string",
+                                "title": "The Mjere schema",
+                                "description": "An explanation about the purpose of this instance.",
+                                "default": "",
+                                "examples": [
+                                    "146.6 x 71.5 x 7.4 mm"
+                                ]
+                            }
+                        },
+                        "additionalProperties": true
+                    },
+                    "Boje": {
+                        "$id": "#/items/anyOf/0/properties/Boje",
+                        "type": "array",
+                        "title": "The Boje schema",
+                        "description": "An explanation about the purpose of this instance.",
+                        "default": [],
+                        "examples": [
+                            [
+                                "Crna",
+                                "Srebrena"
+                            ]
+                        ],
+                        "additionalItems": true,
+                        "items": {
+                            "$id": "#/items/anyOf/0/properties/Boje/items",
+                            "anyOf": [
+                                {
+                                    "$id": "#/items/anyOf/0/properties/Boje/items/anyOf/0",
+                                    "type": "string",
+                                    "title": "The first anyOf schema",
+                                    "description": "An explanation about the purpose of this instance.",
+                                    "default": "",
+                                    "examples": [
+                                        "Crna",
+                                        "Srebrena"
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "Rezolucija": {
+                        "$id": "#/items/anyOf/0/properties/Rezolucija",
+                        "type": "string",
+                        "title": "The Rezolucija schema",
+                        "description": "An explanation about the purpose of this instance.",
+                        "default": "",
+                        "examples": [
+                            "1170 x 2532 pix"
+                        ]
+                    },
+                    "OS": {
+                        "$id": "#/items/anyOf/0/properties/OS",
+                        "type": "string",
+                        "title": "The OS schema",
+                        "description": "An explanation about the purpose of this instance.",
+                        "default": "",
+                        "examples": [
+                            "iOS 14"
+                        ]
+                    },
+                    "Kamera": {
+                        "$id": "#/items/anyOf/0/properties/Kamera",
+                        "type": "array",
+                        "title": "The Kamera schema",
+                        "description": "An explanation about the purpose of this instance.",
+                        "default": [],
+                        "examples": [
+                            [
+                                {
+                                    "Karakteristike": "Quad-LED dual-tone flash, HDR (photo/panorama)",
+                                    "Video": "4K@24/30/60fps, 1080p@30/60/120/240fps"
+                                }
+                            ]
+                        ],
+                        "additionalItems": true,
+                        "items": {
+                            "$id": "#/items/anyOf/0/properties/Kamera/items",
+                            "anyOf": [
+                                {
+                                    "$id": "#/items/anyOf/0/properties/Kamera/items/anyOf/0",
+                                    "type": "object",
+                                    "title": "The first anyOf schema",
+                                    "description": "An explanation about the purpose of this instance.",
+                                    "default": {},
+                                    "examples": [
+                                        {
+                                            "Karakteristike": "Quad-LED dual-tone flash, HDR (photo/panorama)",
+                                            "Video": "4K@24/30/60fps, 1080p@30/60/120/240fps"
+                                        }
+                                    ],
+                                    "required": [
+                                        "Karakteristike",
+                                        "Video"
+                                    ],
+                                    "properties": {
+                                        "Karakteristike": {
+                                            "$id": "#/items/anyOf/0/properties/Kamera/items/anyOf/0/properties/Karakteristike",
+                                            "type": "string",
+                                            "title": "The Karakteristike schema",
+                                            "description": "An explanation about the purpose of this instance.",
+                                            "default": "",
+                                            "examples": [
+                                                "Quad-LED dual-tone flash, HDR (photo/panorama)"
+                                            ]
+                                        },
+                                        "Video": {
+                                            "$id": "#/items/anyOf/0/properties/Kamera/items/anyOf/0/properties/Video",
+                                            "type": "string",
+                                            "title": "The Video schema",
+                                            "description": "An explanation about the purpose of this instance.",
+                                            "default": "",
+                                            "examples": [
+                                                "4K@24/30/60fps, 1080p@30/60/120/240fps"
+                                            ]
+                                        }
+                                    },
+                                    "additionalProperties": true
+                                }
+                            ]
+                        }
+                    },
+                    "Zvucnik": {
+                        "$id": "#/items/anyOf/0/properties/Zvucnik",
+                        "type": "boolean",
+                        "title": "The Zvucnik schema",
+                        "description": "An explanation about the purpose of this instance.",
+                        "default": false,
+                        "examples": [
+                            true
+                        ]
+                    },
+                    "Cijena": {
+                        "$id": "#/items/anyOf/0/properties/Cijena",
+                        "type": "string",
+                        "title": "The Cijena schema",
+                        "description": "An explanation about the purpose of this instance.",
+                        "default": "",
+                        "examples": [
+                            "1120 EUR"
+                        ]
+                    },
+                    "Bluetooth": {
+                        "$id": "#/items/anyOf/0/properties/Bluetooth",
+                        "type": "string",
+                        "title": "The Bluetooth schema",
+                        "description": "An explanation about the purpose of this instance.",
+                        "default": "",
+                        "examples": [
+                            "5.0, A2DP, LE"
+                        ]
+                    },
+                    "Wikilink": {
+                        "$id": "#/items/anyOf/0/properties/Wikilink",
+                        "type": "string",
+                        "title": "The Wikilink schema",
+                        "description": "An explanation about the purpose of this instance.",
+                        "default": "",
+                        "examples": [
+                            "Apple Inc."
+                        ]
+                    }
+                },
+                "additionalProperties": true
+            }
+        ]
+    }
+}
