@@ -1,0 +1,166 @@
+{
+   "openapi": "3.0.3",
+   "info": {
+      "title": "Mobiteli",
+      "description": "Podaci o mobilnim telefonima",
+      "contact": {
+         "name": "Viktorija Smlatić",
+         "url": "https://github.com/ViktorijaSml",
+         "email": "vsmlatic@gmail.com"
+      },
+      "license": {
+         "name": "Creative Commons",
+         "url": "https://creativecommons.org/"
+      },
+      "version": "2.0"
+   },
+   "host": "http://DESKTOP-GT99TI0:9040",
+   "paths": {
+      "/mobiteli/marka/<put_id>": {
+         "get": {
+            "summary": "Get Marka by PkMobitel key",
+            "parameters": [
+               {
+                  "name": "put_id",
+                  "in": "path"
+               }
+            ],
+            "responses": {
+               "200": {
+                  "description": "OK"
+               },
+               "404": {
+                  "description": "Not found"
+               }
+            }
+         }
+      },
+      "/mobiteli/Naziv/<marka_id>": {
+         "get": {
+            "summary": "Get Naziv by Marka key",
+            "parameters": [
+               {
+                  "name": "naziv_id",
+                  "in": "path"
+               }
+            ],
+            "responses": {
+               "200": {
+                  "description": "OK"
+               },
+               "404": {
+                  "description": "Not found"
+               }
+            }
+         }
+      },
+      "/mobiteli/boje/<put_id>": {
+         "get": {
+            "summary": "Get Boje by PkMobitel key",
+            "parameters": [
+               {
+                  "name": "put_id",
+                  "in": "path"
+               }
+            ],
+            "responses": {
+               "200": {
+                  "description": "OK"
+               },
+               "404": {
+                  "description": "Not found"
+               }
+            }
+         }
+      },
+      "/mobiteli/datum/<naziv_id>": {
+         "get": {
+            "summary": "Get DatumIzdanja by Naziv key",
+            "parameters": [
+               {
+                  "name": "naziv_id",
+                  "in": "path"
+               }
+            ],
+            "responses": {
+               "200": {
+                  "description": "OK"
+               },
+               "404": {
+                  "description": "Not found"
+               }
+            }
+         }
+      },
+      "/mobiteli/naziv/<put_id>": {
+         "get": {
+            "summary": "Get Naziv by PkMobitel key",
+            "parameters": [
+               {
+                  "name": "put_id",
+                  "in": "path"
+               }
+            ],
+            "responses": {
+               "200": {
+                  "description": "OK"
+               },
+               "404": {
+                  "description": "Not found"
+               }
+            }
+         }
+      },
+      "/mobiteli/post": {
+         "post": {
+            "summary": "Post new mobile",
+            "responses": {
+               "200": {
+                  "description": "OK"
+               },
+               "400": {
+                  "description": "Invalid input"
+               }
+            }
+         }
+      },
+      "/mobiteli/dimenzije/<put_id>": {
+         "put": {
+            "summary": "Put new Dimenzije resource",
+            "parameters": [
+               {
+                  "name": "put_id",
+                  "in": "path"
+               }
+            ],
+            "responses": {
+               "200": {
+                  "description": "OK"
+               },
+               "400": {
+                  "description": "Invalid input"
+               }
+            }
+         }
+      },
+      "/mobiteli/delete/<put_id>": {
+         "delete": {
+            "summary": "Delete a resource",
+            "parameters": [
+               {
+                  "name": "put_id",
+                  "in": "path"
+               }
+            ],
+            "responses": {
+               "204": {
+                  "description": ""
+               },
+               "404": {
+                  "description": "Not found"
+               }
+            }
+         }
+      }
+   }
+}
