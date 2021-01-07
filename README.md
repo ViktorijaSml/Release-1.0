@@ -1,7 +1,7 @@
 # Release
 Repozitorij za laboratorijske vjezbe.
 <h2 style="text-align:left;float:left;">Naslov</h2>
-<p tyle="text-align:right;float:right;">1. Laboratorijska vježba</p>
+<p tyle="text-align:right;float:right;">3. Laboratorijska vježba</p>
 <hr style="clear:both;"/>
 <h3 style="text-align:left;float:left;">Autor</h3>
 <p tyle="text-align:right;float:right;">Viktorija Smlatić <br>
