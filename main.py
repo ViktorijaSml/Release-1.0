@@ -32,7 +32,7 @@ def get_1(put_id):
             }
             return app.response_class(response=json.dumps(response), status=200, mimetype='application/json')
     ex_response = {
-        'status':'Not founud',
+        'status':'Not found',
         'message': 'Not found', 
         'response': None
     }
@@ -44,7 +44,7 @@ def get_2(marka_id):
     phone_id = str(marka_id)
     found_phone = None
     for mobitel in mobiteli:
-        found_phone = mobitel if mobitel.get('PkMobitel') == mobitel_id else found_phone 
+        found_phone = mobitel if mobitel.get('Marka') == phone_id else found_phone 
     
     if found_phone == None:
         ex_response = {
@@ -53,7 +53,6 @@ def get_2(marka_id):
             'response': None
         }
         return app.response_class(status=404, response=json.dumps(ex_response), mimetype='application/json')
-    naziv = request_params.get('Naziv')
     response = {
         "status": "OK",
         "message": "Fetch succesfull.",
@@ -62,7 +61,7 @@ def get_2(marka_id):
             "Naziv": found_phone.get('Naziv'),
             "links": [
                 {
-                "href": marka_id + "/" + marka_id,
+                "href": marka_id + "/naziv",
                 "rel": "naziv",
                 "type": "GET"
                 }
@@ -109,7 +108,7 @@ def get_4(naziv_id):
     phone_id = str(naziv_id)
     found_phone = None
     for mobitel in mobiteli:
-        found_phone = mobitel if mobitel.get('Naziv') == mobitel_id else found_phone 
+        found_phone = mobitel if mobitel.get('Naziv') == phone_id else found_phone 
     
     if found_phone == None:
         ex_response = {
