@@ -1,7 +1,7 @@
 # Release
-Repozitorij za prvu laboratorijsku vjezbu.
+Repozitorij za laboratorijske vjezbe.
 <h2 style="text-align:left;float:left;">Naslov</h2>
-<p tyle="text-align:right;float:right;">1. Laboratorijska vježba</p>
+<p tyle="text-align:right;float:right;">3. Laboratorijska vježba</p>
 <hr style="clear:both;"/>
 <h3 style="text-align:left;float:left;">Autor</h3>
 <p tyle="text-align:right;float:right;">Viktorija Smlatić <br>
@@ -11,13 +11,13 @@ Repozitorij za prvu laboratorijsku vjezbu.
 <p tyle="text-align:right;float:right;">Podaci o popularnim mobilnim telefonima</p>
 <hr style="clear:both;"/>
 <h5 style="text-align:left;float:left;">Datum objave</h5>
-<p tyle="text-align:right;float:right;">27.10.2020.</p>
+<p tyle="text-align:right;float:right;">06.01.2021.</p>
 <hr style="clear:both;"/>
 <h5 style="text-align:left;float:left;">Kontakt - mail</h5>
 <p tyle="text-align:right;float:right;">vsmlatic@gmail.com</p>
 <hr style="clear:both;"/>
 <h5 style="text-align:left;float:left;">Verzija</h5>
-<p tyle="text-align:right;float:right;">1.0 </p>
+<p tyle="text-align:right;float:right;">3.0 </p>
 <hr style="clear:both;"/>
 <h5 style="text-align:left;float:left;">Licenca - opis</h5>
 <p tyle="text-align:right;float:right;">Creative Commons - javna licenca za autorska prava koja omogućuje besplatnu distribuciju inače zaštićenog autorskim pravima. Autor daje drugima pravo da dijele, koriste i grade na djelu koje je stvorio.</p>
