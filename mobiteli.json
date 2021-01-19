@@ -1,6 +1,13 @@
 [
    {
+      "@context": "http://schema.org",
+      "@type": "Product",
       "PkMobitel": 1,
+      "manufacturer": {
+         "@type": "Organization",
+         "legalName": "Apple Inc."
+      },
+      "releaseDate": "2020-10-13",
       "Marka": "Apple",
       "Naziv": "iPhone 12 Pro",
       "DatumIzdanja": "2020-10-13",
@@ -8,7 +15,7 @@
          "Tezina": "189g",
          "Mjere": "146.6 x 71.5 x 7.4 mm"
       },
-      "Boje": [
+      "color": [
          "Crna",
          "Srebrena",
          "Bijela"
@@ -27,7 +34,14 @@
       "Wikilink": "Apple Inc."
    },
    {
+      "@context": "http://schema.org",
+      "@type": "Product",
+      "releaseDate": "2020-06-05",
       "PkMobitel": 2,
+      "manufacturer": {
+         "@type": "Organization",
+         "legalName": "Nokia Corporation"
+      },
       "Marka": "Nokia",
       "Naziv": "C5 Endi",
       "DatumIzdanja": "2020-06-05",
@@ -35,7 +49,7 @@
          "Tezina": "200g",
          "Mjere": "171.7 x 76,7 x 8.9 mm"
       },
-      "Boje": [
+      "color": [
          "Tamno plava",
          "Crna"
       ],
@@ -53,7 +67,14 @@
       "Wikilink": "Nokia"
    },
    {
+      "@context": "http://schema.org",
+      "@type": "Product",
+      "releaseDate": "2020-03-18",
       "PkMobitel": 3,
+      "manufacturer": {
+         "@type": "Organization",
+         "legalName": "The Samsung Group"
+      },
       "Marka": "Samsung",
       "Naziv": "Galaxy A41",
       "DatumIzdanja": "2020-03-18",
@@ -61,7 +82,7 @@
          "Tezina": "152g",
          "Mjere": "149.9 x 69.8 x 7.9 mm"
       },
-      "Boje": [
+      "color": [
          "Zelena",
          "Srebrena",
          "Crna",
@@ -81,7 +102,14 @@
       "Wikilink": "Samsung"
    },
    {
+      "@context": "http://schema.org",
+      "@type": "Product",
+      "releaseDate": "2019-10-20",
       "PkMobitel": 4,
+      "manufacturer": {
+         "@type": "Organization",
+         "legalName": "Sony Corporation"
+      },
       "Marka": "Sony",
       "Naziv": "Xperia 5",
       "DatumIzdanja": "2019-10-20",
@@ -89,7 +117,7 @@
          "Tezina": "164 g",
          "Mjere": "158 x 68 x 8.2 mm"
       },
-      "Boje": [
+      "color": [
          "Plava",
          "Crvena",
          "Crna",
@@ -109,7 +137,14 @@
       "Wikilink": "Sony"
    },
    {
+      "@context": "http://schema.org",
+      "@type": "Product",
+      "releaseDate": "2018-12-15",
       "PkMobitel": 5,
+      "manufacturer": {
+         "@type": "Organization",
+         "legalName": "Vodafon Group plc"
+      },
       "Marka": "Vodafone",
       "Naziv": "Smart X9",
       "DatumIzdanja": "2018-12-15",
@@ -117,7 +152,7 @@
          "Tezina": "153 g",
          "Mjere": "148.2 x 71.3 x 8mm"
       },
-      "Boje": [
+      "color": [
          "Crna"
       ],
       "Rezolucija": "1080 x 2160 pix",
@@ -134,7 +169,14 @@
       "Wikilink": "Vodafone"
    },
    {
+      "@context": "http://schema.org",
+      "@type": "Product",
+      "releaseDate": "2019-06-23",
       "PkMobitel": 6,
+      "manufacturer": {
+         "@type": "Organization",
+         "legalName": "Deutche Telekom"
+      },
       "Marka": "T-Mobile",
       "Naziv": "Revvlry",
       "DatumIzdanja": "2019-06-23",
@@ -142,7 +184,7 @@
          "Tezina": "nema podataka",
          "Mjere": "148.6 x 71.4 x 8.1 mm"
       },
-      "Boje": [
+      "color": [
          "Crna"
       ],
       "Rezolucija": "720 x 1520 pix",
@@ -159,7 +201,14 @@
       "Wikilink": "T-Mobile"
    },
    {
+      "@context": "http://schema.org",
+      "@type": "Product",
+      "releaseDate": "2020-04-20",
       "PkMobitel": 7,
+      "manufacturer": {
+         "@type": "Organization",
+         "legalName": "LG Corporation"
+      },
       "Marka": "LG",
       "Naziv": "Stylo 6",
       "DatumIzdanja": "2020-04-20",
@@ -167,7 +216,7 @@
          "Tezina": "219 g",
          "Mjere": "171.2 x 77.7 x 8.6 mm"
       },
-      "Boje": [
+      "color": [
          "Crna"
       ],
       "Rezolucija": "1080 x 2460 pix",
@@ -184,7 +233,14 @@
       "Wikilink": "LG_(korporacija)"
    },
    {
+      "@context": "http://schema.org",
+      "@type": "Product",
+      "releaseDate": "2020-07-02",
       "PkMobitel": 8,
+      "manufacturer": {
+         "@type": "Organization",
+         "legalName": "Motorola Inc"
+      },
       "Marka": "Motorola",
       "Naziv": "One Fusion",
       "DatumIzdanja": "2020-07-02",
@@ -192,7 +248,7 @@
          "Tezina": "202 g",
          "Mjere": "165 x 75.9 x 9.4 mm"
       },
-      "Boje": [
+      "color": [
          "Smaragd zelena",
          "Tamno plava"
       ],
@@ -210,7 +266,14 @@
       "Wikilink": "Motorola"
    },
    {
+      "@context": "http://schema.org",
+      "@type": "Product",
+      "releaseDate": "2016-02-15",
       "PkMobitel": 9,
+      "manufacturer": {
+         "@type": "Organization",
+         "legalName": "Microsoft Corporation"
+      },
       "Marka": "Microsoft",
       "Naziv": "Lumia 650",
       "DatumIzdanja": "2016-02-15",
@@ -218,7 +281,7 @@
          "Tezina": "122 g",
          "Mjere": "142 x 70.9 x 6.9 mm"
       },
-      "Boje": [
+      "color": [
          "Crna",
          "Bijela"
       ],
@@ -236,7 +299,14 @@
       "Wikilink": "Microsoft"
    },
    {
+      "@context": "http://schema.org",
+      "@type": "Product",
+      "releaseDate": "2019-09-06",
       "PkMobitel": 10,
+      "manufacturer": {
+         "@type": "Organization",
+         "legalName": "Huawei Techonologies Corporation"
+      },
       "Marka": "Huawei",
       "Naziv": "Mate 30 Pro",
       "DatumIzdanja": "2019-09-06",
@@ -244,7 +314,7 @@
          "Tezina": "198 g",
          "Mjere": "158.1 x 73.1 x 8.8 mm"
       },
-      "Boje": [
+      "color": [
          "Crna",
          "Srebrena",
          "Ljubicasta",
